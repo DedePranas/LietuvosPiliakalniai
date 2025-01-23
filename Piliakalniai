@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lietuvos kontūrinis žemėlapis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .map-container {
+            text-align: center;
+        }
+        svg {
+            width: 80%;
+            max-width: 600px;
+            height: auto;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <h1>Lietuvos kontūrinis žemėlapis</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+            <path d="M 100,150 L 200,100 L 300,150 L 350,250 L 300,350 L 200,400 L 100,350 L 50,250 Z" 
+                  fill="none" stroke="black" stroke-width="2" />
+        </svg>
+    </div>
+</body>
+</html>
